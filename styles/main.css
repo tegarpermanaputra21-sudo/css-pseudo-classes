@@ -7,7 +7,7 @@
     background-color: #1a1a1a;
 }
 html, body {
-    width: 90%;
+    width: 86%;
     margin: 0 auto;
 }
 header h1 {
@@ -16,7 +16,7 @@ header h1 {
     margin: 3.5rem 0;
 }
 main section {
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
 main h2 {
     font-size: 1.5rem;
@@ -25,10 +25,16 @@ main h2 {
 main ul {
     margin: 0 2rem;
 }
-main li span {
-    font-weight: 600;
-}
 main li {
     font-size: 1rem;
     margin-bottom: 0.4rem;
+}
+main li span {
+    font-weight: 600;
+}
+main li span a {
+    padding: 0 4px;
+    text-decoration: none;
+    background-color: #343434;
+    outline: 1px solid #fff;
 }
