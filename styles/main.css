@@ -16,6 +16,7 @@ header h1 {
     margin: 3.5rem 0;
 }
 main section {
+    text-align: justify;
     margin: 2.5rem 0;
 }
 main h2 {
@@ -41,7 +42,7 @@ main li span a {
 
 @media (max-width: 768px) {
     html, body {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
     header h1 {
@@ -49,6 +50,10 @@ main li span a {
     }
     main h2 {
         font-size: 1.2rem;
+        border-bottom: 1px solid #fff;
+    }
+    main ul {
+        margin: 1rem;
     }
     main li {
         font-size: 0.9rem;
