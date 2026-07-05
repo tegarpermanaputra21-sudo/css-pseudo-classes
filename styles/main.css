@@ -40,6 +40,7 @@ main li span a {
     outline: 1px solid #fff;
 }
 
+/* responsive */
 @media (max-width: 768px) {
     html, body {
         width: 95%;
