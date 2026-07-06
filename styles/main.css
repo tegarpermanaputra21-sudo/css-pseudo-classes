@@ -40,7 +40,6 @@ main li span a {
     outline: 1px solid #fff;
 }
 
-/* responsive */
 @media (max-width: 768px) {
     html, body {
         width: 95%;
@@ -48,6 +47,7 @@ main li span a {
     }
     header h1 {
         font-size: 1.6rem;
+        margin: 3rem auto 1rem;
     }
     main h2 {
         font-size: 1.2rem;
